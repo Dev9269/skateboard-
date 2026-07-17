@@ -1,5 +1,10 @@
 # Suburbia Skate
 
+[![CI](https://github.com/Dev9269/skateboard-/actions/workflows/ci.yml/badge.svg)](https://github.com/Dev9269/skateboard-/actions/workflows/ci.yml)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
+
 A modern, interactive skateboarding brand website built with Next.js 15, featuring a 3D board customizer, physics-based footer animations, and CMS-driven content via Prismic.
 
 ## Tech Stack
