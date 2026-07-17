@@ -51,7 +51,11 @@ export async function SkateboardProduct({ id }: Props) {
       <div className="flex items-center justify-between ~text-sm/2xl">
         <span>{price}</span>
         <span className="inline-flex items-center gap-1">
-          <FaStar className="text-yellow-400" /> 37
+          <FaStar className="text-yellow-400" />
+          <FaStar className="text-yellow-400" />
+          <FaStar className="text-yellow-400" />
+          <FaStar className="text-yellow-400" />
+          <FaStar className="text-yellow-400" />
         </span>
       </div>
       <div className="-mb-1 overflow-hidden py-4">

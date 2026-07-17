@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { ButtonLink } from "./ButtonLink";
+import { CartLink } from "./CartLink";
 import { Logo } from "./Logo";
 import { createClient } from "@/prismicio";
 import { PrismicNextLink } from "@prismicio/next";
@@ -28,10 +28,7 @@ export async function Header() {
           </ul>
         </nav>
         <div className="justify-self-end">
-          <ButtonLink href="" icon="cart" color="purple" aria-label="Cart (1)">
-            <span className="md:hidden">1</span>
-            <span className="hidden md:inline">Cart (1)</span>
-          </ButtonLink>
+          <CartLink />
         </div>
       </div>
     </header>

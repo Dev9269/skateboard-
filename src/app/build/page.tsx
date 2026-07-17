@@ -1,10 +1,10 @@
-import { ButtonLink } from "@/components/ButtonLink";
 import { Heading } from "@/components/Heading";
 import { Logo } from "@/components/Logo";
 import Link from "next/link";
 import React from "react";
 
 import { CustomizerControlsProvider } from "./context";
+import { AddToCartButton } from "./AddToCartButton";
 import { createClient } from "@/prismicio";
 import Preview from "./Preview";
 import { asImageSrc } from "@prismicio/client";
@@ -73,9 +73,7 @@ export default async function Page(props: {
             metals={metals}
             className="mb-6"
           />
-          <ButtonLink href="" color="lime" icon="plus">
-            Add to cart
-          </ButtonLink>
+          <AddToCartButton />
         </div>
       </CustomizerControlsProvider>
       <Loading />
