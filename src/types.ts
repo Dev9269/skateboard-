@@ -1,1 +1,1 @@
-export interface Config {{ version: number; }}
+export interface Config { version: number; }
