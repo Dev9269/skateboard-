@@ -1,5 +1,5 @@
 {
-  "name": "suburbia",
+  "name": "skateboard-",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,7 +16,6 @@
     "@prismicio/react": "^2.9.1",
     "@react-three/drei": "^9.120.4",
     "@react-three/fiber": "^9.0.0-rc.1",
-    "@types/matter-js": "^0.19.8",
     "clsx": "^2.1.1",
     "gsap": "^3.12.5",
     "matter-js": "^0.20.0",
@@ -31,8 +30,9 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/matter-js": "^0.19.8",
     "eslint": "^8",
-    "eslint-config-next": "15.0.3",
+    "eslint-config-next": "15.0.7",
     "fluid-tailwind": "^1.0.4",
     "postcss": "^8",
     "slice-machine-ui": "^2.11.1",

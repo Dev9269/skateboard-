@@ -23,5 +23,5 @@
     }
   },
   "include": ["next-env.d.ts", "prismicio-types.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules", "test", "tests"]
+  "exclude": ["node_modules", "tests"]
 }
